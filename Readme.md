@@ -106,6 +106,18 @@ Both scripts automatically generate an HTML summary report on completion (via `h
 
 The `Reports/` folder is excluded from version control via `.gitignore`.
 
+## Demo Video
+
+[Watch the k6 test run for both scripts](https://drive.google.com/file/d/1euG9fvZyQroBm6fEO0DB66un5DTviFNi/view?usp=sharing)
+
+## Screenshots
+
+### Daily Finance API — HTML Report
+![Daily Finance Report](screenshots/dailyfinance-report.png)
+
+### DemoQA BookStore — HTML Report
+![DemoQA BookStore Report](screenshots/demoqa-report.png)
+
 ## Results Summary
 
 Both scripts passed all defined thresholds during test runs:
