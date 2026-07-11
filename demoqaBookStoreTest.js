@@ -47,7 +47,7 @@ export default function () {
 
 export function handleSummary(data) {
   return {
-    'demoqa-report.html': htmlReport(data),
+    'Reports/demoqa-report.html': htmlReport(data),
     stdout: textSummary(data, { indent: ' ', enableColors: true }),
   };
 }

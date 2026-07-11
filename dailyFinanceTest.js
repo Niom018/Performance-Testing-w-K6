@@ -106,7 +106,7 @@ export default function () {
 
 export function handleSummary(data) {
   return {
-    'dailyfinance-report.html': htmlReport(data),
+    'Reports/dailyfinance-report.html': htmlReport(data),
     stdout: textSummary(data, { indent: ' ', enableColors: true }),
   };
 }
